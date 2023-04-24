@@ -1,0 +1,14 @@
+{
+  "env": {
+    "commonjs": true,
+    "es2021": true,
+    "node": true
+  },
+  "ignorePatterns": ["!/src/**/*"],
+  "extends": ["standard-with-typescript", "plugin:prettier/recommended"],
+  "overrides": [],
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "rules": {}
+}
